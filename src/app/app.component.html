@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <td>Id</td>
+    <th>Name</th>
+    <th>Email</th>
+    
+  </tr>
+  <tr *ngFor="let mydata of data[0]">
+    <td>{{mydata.id}}</td>
+    <td>{{mydata.name}}</td>
+    <td>{{mydata.email}}</td>
+  </tr>
+<router-outlet></router-outlet>
