@@ -1,9 +1,15 @@
 # angular9phpdatabase
 Angular 9 with php and mysql database
+
 npm install -g @angular/cli //Setup Angular9  
+
 ng new angular9php  //Install New Angular App
+
 /**You need to update your Nodejs also for this verison**/
+
+
 cd angular9php  //Go inside the Angular 9 Project
+
 
 add this repo to the Project to override the src/app folder
 
